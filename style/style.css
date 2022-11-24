@@ -1,0 +1,149 @@
+@font-face {
+   font-family: "Circular Std";
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: local("Circular Std"), url("../fonts/Circular Std.woff2") format("woff2"), url("../fonts/Circular Std.woff") format("woff");
+}
+
+.container {
+   max-width: 1440px;
+   margin: 0px auto;
+}
+
+body {
+   font-family: 'Circular Std', sans-serif;
+   display: block;
+}
+
+.hero {
+/*    background-image: url(../img/hero-bgi.png); */
+   /* background-color: rgb(212, 219, 235);  */
+   /* bgr */
+   /*background-repeat: no-repeat; */  /* відмова у дублюванні картинки (якщо картинка замала, то вона повторюэться). */
+   /* bgp */
+   /*background-position: center; */  /* відцетровання картинки відносно сторінки*/
+   /* bgs */
+   /*background-size: cover;  */ /* збереження пропорції сторінки */
+/*    height: 533px; */
+/*    margin-bottom: -80px; */
+   display: flex;
+}
+
+.hero_main_row {
+   margin: 0 auto;
+   display: flex;
+   width: 70%;
+}
+
+.hero_left_column {
+   background-color: rgb(212, 219, 235);
+   border-radius: 5px;
+   padding: 5px 5px 5px 5px;
+   max-width: 100%;
+
+}
+
+.hero_left_column_icon {
+   margin: 20px auto;
+}
+
+.hero_left_column_icon img{
+   max-width: 100%;
+}
+
+.hero_left_column :nth-child(2) {
+   margin-top: 15px;
+   margin-bottom: 10px;
+   font-weight: 700;
+}
+
+
+.hero_left_column :nth-child(3) {
+   margin-bottom: 20px;
+}
+
+
+a:hover {
+   text-decoration: underline;
+   color: blue;
+}
+
+
+.hero_left_column :nth-child(5) {
+   margin-top: 5px;
+}
+
+.hero_left_column :nth-child(6) {
+   margin-top: 15px;
+   margin-bottom: 5px;
+}
+
+.hero_left_column :nth-child(7) {
+   margin-bottom: 15px;
+}
+
+.hero_left_column :nth-child(8) {
+   margin-bottom: 15px;
+}
+
+
+.hero_right_column {
+   background-color: rgb(212, 219, 235);
+   border-radius: 5px;
+   padding: 10px;
+   margin-left: 1px;
+
+}
+
+.hero_right_column_title {
+   margin-top: 20px;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+
+
+.hero_right_column :nth-child(2) {
+   margin-bottom: 10px;
+}
+
+.hero_right_column :nth-child(3) {
+   margin-bottom: 10px;
+}
+
+.hero_right_column :nth-child(4) {
+   margin-bottom: 20px;
+}
+
+.hero_right_column :nth-child(5) {
+   margin-bottom: 10px;
+   font-weight: 700;
+}
+
+
+li {
+   list-style: none;
+   margin-bottom: 5px;
+   font-style: italic;
+}
+
+
+li:hover {
+   text-decoration: underline;
+   color: black;
+}
+
+
+.active {
+   display: none;
+}
+
+
+.data__loading{
+   margin: 0 auto;
+   margin-top: 40%;
+}
+
+.data__loading :first-child{
+   max-width: 50px;
+}
